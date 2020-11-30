@@ -1,11 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Project (Web Design)</title>
-</head>
-<body>
-    <script src="index.js"></script>
-</body>
+<html>
+    <head>
+        <title>KEVIN FRANSISKUS WULLUR'S Homepage CV</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div style="background-color:azure;">
+            <table border="1" align="center" width ="100%"></table>
+            <pre><a href>PROFIL</a> <a href="#EDUCATION">EDUCATION</a> <a href="#ADDRESS">ADDRESS</a> <a href="#AWARD and HONOR">AWARD and HONOR</a> <a href="#SKILLS">SKILLS</a> <a href="#CONTACT ME">CONTACT ME</a></pre>
+            <h2><span style="background-color: bisque;">PROFIL</span></h2>
+            <img src= "Photo/photo(kevinw).png"></div>
+        <div style="background-color:rgb(247, 247, 247)">        
+            <p>
+                <b>NAME : Kevin Fransiskus Wullur</b><br> 
+                <b>STATUS : Student College</b><br>
+                <b>FACULTY : Computer Science</b><br>
+                <b>PRODI : System Information</b><br>
+            </p>
+        </div>
+        <hr>
+        <section id="EDUCATION">
+        <h2><span style="background-color :bisque;">EDUCATION</span></h2>
+        <ol type="1">
+            <li><p><a href="https://vymaps.com/ID/SD-Inpres-Kauditan-2-480633932099261/" target="_blank"> SD Inpres kauditan 2 </a> Elementary school</p></li>
+            <li><p><a href="https://akupintar.id/sekolah/-/cari-sekolah/smp-katolik-st-maria-goretti-lembean/83425452" target="_blank"> SMP-katolik-st-maria-goretti-lembean </a> Junior high school</p></li>
+            <li><p><a href="https://id.foursquare.com/v/sma-katolik-don-bosco-lembean/4cf4559688de37045065842b" target="_blank"> SMA Katolik don bosco lembean </a> High school</p></li>
+            <li><p><a href="http://www.unklab.ac.id/" target="_blank"> Universitas klabat </a> College</p></li>
+        </ol>
+        </section> 
+        <hr>
+        <section id="ADDRESS">
+        <h2><address><span style="background-color: bisque;">ADDRESS</address></span></h2>
+        <ul type="circle">
+            <li><p><a href="https://www.google.co.id/maps/place/Jl.+Arnold+Mononutu,+Lembean,+Kauditan,+Kabupaten+Minahasa+Utara,+Sulawesi+Utara/@1.4004888,125.0067084,791m/data=!3m2!1e3!4b1!4m5!3m4!1s0x32870f97a9f3cc39:0xfcae69d0c9493898!8m2!3d1.4004834!4d125.0088971?hl=id" target="_blank">  Jl. Arnold Mononutu</a></p></li>
+            <li><p><a href="https://www.google.co.id/maps/place/Kauditan+II,+Kauditan,+Kabupaten+Minahasa+Utara,+Sulawesi+Utara/@1.4114615,125.0554872,8946m/data=!3m1!1e3!4m5!3m4!1s0x328705bfd3aea055:0x9e35ea9c5c696114!8m2!3d1.4178919!4d125.0580878?hl=id" target="_blank">  Desa Kauditan 2</a>North Minahasa,North Sulawesi</p></li>
+        </ul>
+        </section>
+        <hr>
+        <section id="AWARD and HONOR">
+        <h2><span style="background-color :bisque;">AWARD and HONOR</span></h2>
+        <ul type="ceklist"></ul>
+            <li><b> Student Council </b><br>
+                Served as a member of the Student Council for 1 period in the technology and information section in High school</li>
+            <li><b>Rank</b><br> 
+                Overall winner in 3rd place in the computer-based national exam (UNBK) in High School</li>
+            </section>
+        <hr>
+        <section id="SKILLS">
+        <h2><span style="background-color: bisque;">SKILLS</span></h2>
+        <pre>  HTML        : <span style="color: green;"><b>VERY GOOD</b></span><br>  CSS         : <span style="color:green;"><b>VERY GOOD</b></span><br>  Java Script : <span style="color:olivedrab"><b>NOT BAD</b></span><br>  Java        : <span style="color :darkred"><b>VERY BAD</b></span>
+        </pre>        
+        </section>
+        <hr>
+        <section id="CONTACT ME">
+        <h2><span style="background-color: bisque;">CONTACT ME</span></h2>
+            <form> 
+                <label for="name">Your Name : </label>
+                <input type="text" class="name" id="name" required="">
+                    <br>
+                    <br>
+                <label for="email">Your Email :</label>
+                <input type="email" class="email" id="email" required="">
+                    <br>
+                    <br>
+                    <br>
+                <label for="message">Your Message:</label>
+                    <br>
+                <textarea class="message" id="message" cols="40" rows="10" placeholder="type your message..."></textarea>
+                    <br>
+                    <div class="status">
+                    </div>
+                    <input type="submit" class="submit">
+            </form>
+        </section>
+    </body>
 </html>

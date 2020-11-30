@@ -1,0 +1,24 @@
+a:hover{
+    color: white;
+    background-color: black;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em; 
+}
+li::selection{
+    background-color: rgb(133, 133, 185);
+    color: rgb(184, 153, 107);
+}
+b::selection{
+    background-color: rgb(133, 133, 185);
+    color: rgb(184, 153, 107);
+}
+pre::selection{
+    background-color: rgb(133, 133, 185);
+    color: rgb(184, 153, 107);
+}
+label::selection{
+    background-color: rgb(133, 133, 185);
+    color: rgb(184, 153, 107);
+}
